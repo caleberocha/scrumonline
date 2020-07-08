@@ -1,7 +1,7 @@
 <?php
 // database configuration parameters
 $conn = array(
-    'url' => $_ENV['DATABASE_URL'];
+    'url' => $_ENV['DATABASE_URL']
 );
 
 // This is used to create the join link
