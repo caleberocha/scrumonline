@@ -1,10 +1,15 @@
 {
-    "require": {
-        "doctrine/orm": "2.4.*",
-        "symfony/yaml": "2.*",
-        "guzzlehttp/guzzle": "^6.2"
-    },
-    "autoload": {
-        "psr-0": {"": "src/"}
+  "require": {
+    "doctrine/orm": "2.4.*",
+    "symfony/yaml": "2.*",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
     }
+  },
+  "scripts": {
+    "post-install-cmd": "bash -c \"cp src/sample-config.php src/config.php\""
+  }
 }
