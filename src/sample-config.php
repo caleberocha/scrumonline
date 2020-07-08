@@ -5,7 +5,7 @@ $conn = array(
 );
 
 // This is used to create the join link
-$host = "https://localhost";
+$host = sprintf("https://%s.herokuapp.com/", HEROKU_APP_NAME);
 
 $cardSets = [
     ['1', '2', '3', '4', '5', '6', '7', '?'],
